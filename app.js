@@ -22,7 +22,7 @@ app.get('/about',(req, res)=>{
     res.render('about',{title:'about'})
 })
 
-app.get('/blogs/create',(req,res)=>{
+app.get('/blogs/create',(req,ress)=>{
 
     res.render('create',{title:'Create a new Blog'})
 })
