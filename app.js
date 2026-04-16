@@ -8,7 +8,7 @@ const app= express()
 // register view 
 
 
-app.set('view engnine', 'ejs')
+app.set('view engine', 'ejs')
 
 // listener for request
 app.listen(3000)
